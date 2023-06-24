@@ -1,10 +1,10 @@
 import javax.swing.*;
 
-// basic Bot code in Java, followed an initial tutorial and customized with knowledge of Java Swing library and basic ML mechanics
+// basic rules-based chatbot code in Java, followed an initial tutorial and customized with knowledge of Java Swing library and basic ML mechanics
 
-public class Bot extends JFrame {
+public class RulesBot extends JFrame {
 
-    public Bot() {
+    public RulesBot() {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
@@ -16,7 +16,7 @@ public class Bot extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Bot();
+        new RulesBot();
 
     }
 }
