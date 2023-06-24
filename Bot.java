@@ -11,6 +11,8 @@ public class Bot extends JFrame {
         frame.setResizable(false);
         frame.setLayout(null);
 
+        frame.setSize(600, 600);
+
     }
 
     public static void main(String[] args) {
