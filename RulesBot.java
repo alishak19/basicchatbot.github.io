@@ -7,7 +7,7 @@ public class RulesBot extends JFrame {
     public RulesBot() {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(false);
+        frame.setVisible(true);
         frame.setResizable(false);
         frame.setLayout(null);
 
