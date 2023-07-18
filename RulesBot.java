@@ -11,7 +11,7 @@ public class RulesBot extends JFrame {
         frame.setResizable(true);
         frame.setLayout(null);
 
-        frame.setSize(554, 557);
+        frame.setSize(554, 558);
 
     }
 
