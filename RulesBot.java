@@ -5,7 +5,7 @@ import javax.swing.*;
 public class RulesBot extends JFrame {
 
     public RulesBot() {
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame(); 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setResizable(true);
