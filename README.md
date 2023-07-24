@@ -1,3 +1,3 @@
 # basicchatbot
-Simple rules-based chatbot //
-In development: chatbot using the tensorflow library
+Simple rules-based chatbot in Java //
+Chatbot using the Python tensorflow library
