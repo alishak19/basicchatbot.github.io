@@ -57,7 +57,7 @@ if __name__ == "__main__":
     elif any (i in ai.text for i in ["thank","thanks"]):
       res = np.random.choice(["you're so welcome it's not even funny","slay"])
     elif any (i in ai.text for i in ["taylor","swift"]):
-      res = np.random.choice(["your midas touch on the chevy door","november flush and your flannel cure","this dorm was once a madhouse, i made a joke well it's made for me","how evergreen your group of friends, don't think we'll say that word again","and soon they'll have the nerve to deck the halls that we once walked through"])
+      res = np.random.choice(["your midas touch on the chevy door","november flush and your flannel cure","this dorm was once a madhouse, i made a joke well it's made for me","how evergreen your group of friends, don't think we'll say that word again","and soon they'll have the nerve to deck the halls that we once walked through","one for the money, two for the show"])
     elif any(i in ai.text for i in ["exit","close"]):
       res = np.random.choice(["slayed","have a great day not just a good day","fine leave me alone then"])
       ex=False
