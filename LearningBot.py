@@ -69,6 +69,6 @@ if __name__ == "__main__":
         res = str(chat)
         res = res[res.find("bot >> ")+6:].strip()
     ai.text_to_speech(res)
-  print("rip Dev")
+  print("night Dev")
       
 
