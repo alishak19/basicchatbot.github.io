@@ -26,4 +26,36 @@ class LearningBot():
       print("who me?? ", self.text)
     except:
       print("who me?? ERROR")
+  @staticmethod
+  def text_to_speech(text):
+    print("Dev --> ", text)
+    speaker = gTTS(text=text, lang="en", slow=False)
+    speaker.save("res.mp3")
+    statbuf = os.stat("res.mp3")
+    mbytes = statbuf.st_size / 1024
+    duration = mbytes / 200
+    os.system('afplay res.mp3')
+    time.sleep(int(50*duration))
+    os.remove("res.mp3")
+  def wake_up(self, text)
+    return True if self.name in text.lower() else False
+  @staticmethod
+  def action_time(): 
+    return datetime.datetime.now().time().strftime('%H:%M')
+#turn the ai into a runner/track star
+if __name__ == "__main__":
+  ai = LearningBot(name="dev")
+  nlp = transformers.pipeline("conversational", model="microsoft/DialoGPT-medium")
+  os.environ["TOKENIZERS_PARALLELISM"] = "true"
+  ex=True
+  while ex:
+    ai.speech_to_text()
+    if ai.wake_up(ai.text) is True:
+      res = "howdy!"
+    elif "time" in ai.text:
+      res = ai.action_time()
+    elif any (i in ai.text for i in ["thank","thanks"]):
+      res = np.random.choice(["you're so welcome it's not even funny","slay"])
+    elif any(i in ai.text for i in ["exit","close"]):
+      res = np.random.choice("
 
