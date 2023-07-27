@@ -51,12 +51,22 @@ if __name__ == "__main__":
   while ex:
     ai.speech_to_text()
     if ai.wake_up(ai.text) is True:
-      res = "howdy!"
+      res = "howdy! my name is dev"
     elif "time" in ai.text:
       res = ai.action_time()
     elif any (i in ai.text for i in ["thank","thanks"]):
       res = np.random.choice(["you're so welcome it's not even funny","slay"])
     elif any(i in ai.text for i in ["exit","close"]):
       res = np.random.choice(["slayed","have a great day not a good day"])
+      ex=False
+    else: 
+      if ai.text=="ERROR":
+        res="i don't have a fitting taylor swift lyric for this moment. given that that's basically impossible, please try again"
+      else:
+        chat = nlp(transformers.Conversation(ai.text), pad_token_id=50256)
+        res = str(chat)
+        res = res[res.find("bot >> ")+6:].strip()
+    ai.text_to_speech(res)
+  print("rip Dev")
       
 
