@@ -13,12 +13,12 @@ import datetime
 
 class LearningBot(): 
   def_init_(self, name): 
-    print("Starting up", name, "")
+    print("waking up", name, "")
     self.name = name
   def speech_to_text(self):
     recognizer = sre.Recognizer()
     with sre.Microphone() as micdrop:
-      print("Listening to you...")
+      print("listening to you...")
       audio = recognizer.listen(micdrop)
       self.text="ERROR"
     try: 
