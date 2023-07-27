@@ -51,7 +51,7 @@ if __name__ == "__main__":
   while ex:
     ai.speech_to_text()
     if ai.wake_up(ai.text) is True:
-      res = "howdy!"
+      res = "howdy! i'm dev :D"
     elif "time" in ai.text:
       res = ai.action_time()
     elif any (i in ai.text for i in ["thank","thanks"]):
