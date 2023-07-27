@@ -57,7 +57,7 @@ if __name__ == "__main__":
     elif any (i in ai.text for i in ["thank","thanks"]):
       res = np.random.choice(["you're so welcome it's not even funny","slay"])
     elif any(i in ai.text for i in ["exit","close"]):
-      res = np.random.choice(["slayed","have a great day not a good day"])
+      res = np.random.choice(["slayed","have a great day not just a good day"])
       ex=False
     else: 
       if ai.text=="ERROR":
