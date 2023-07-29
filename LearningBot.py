@@ -13,7 +13,7 @@ import datetime
 
 class LearningBot(): 
   def_init_(self, name): 
-    print("waking", name, "")
+    print("wakin", name, "")
     self.name = name
   def speech_to_text(self):
     recognizer = sre.Recognizer()
