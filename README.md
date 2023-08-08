@@ -1,2 +1,2 @@
 # basicchatbot
-Followin tutorial, customizing via knowledge of libraries and ML mechanics
+Followi tutorial, customizing via knowledge of libraries and ML mechanics
