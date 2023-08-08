@@ -9,7 +9,7 @@ import time
 import numpy as np
 import datetime
 
-# building the AI learning b
+# building the AI learning bot
 
 class LearningBot(): 
   def_init_(self, name): 
