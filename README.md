@@ -1,2 +1,2 @@
 # basicchatbot
-Follow a simple tutorial, customizing via knowledge of libraries and ML mechanics
+Followi a simple tutorial, customizing via knowledge of libraries and ML mechanics
