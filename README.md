@@ -1,2 +1,2 @@
 # basicchatbot
-Foll a simple tutorial, customizing via knowledge of libraries and ML mechanics
+Follo a simple tutorial, customizing via knowledge of libraries and ML mechanics
