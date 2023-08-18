@@ -42,7 +42,7 @@ class LearningBot():
   @staticmethod
   def action_time(): 
     return datetime.datetime.now().time().strftime('%H:%M')
-#wake the ai int
+#wake the ai in
 if __name__ == "__main__":
   ai = LearningBot(name="dev")
   nlp = transformers.pipeline("conversational", model="microsoft/DialoGPT-medium")
