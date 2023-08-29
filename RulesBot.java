@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-// simple rules-based chatbot code in Java, followed an initial tutorial, customized with knowledge of Java Swing 
+// simple rules-based chatbot code in Java, followed an initial tutorial, customizing with knowledge of Java Swing 
 
 public class RulesBot extends JFrame {
 
