@@ -18,7 +18,7 @@ class LearningBot():
   def speech_to_text(self):
     recognizer = sre.Recognizer()
     with sre.Microphone() as micdrop:
-      print("listening to you...")
+      print("listening to you")
       audio = recognizer.listen(micdrop)
       self.text="ERROR"
     try: 
