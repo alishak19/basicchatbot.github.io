@@ -15,6 +15,7 @@ class LearningBot():
   def_init_(self, name): 
     print("waking up", name, "")
     self.name = name
+
   def speech_to_text(self):
     recognizer = sre.Recognizer()
     with sre.Microphone() as micdrop:
