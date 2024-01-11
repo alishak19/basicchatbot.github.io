@@ -27,6 +27,7 @@ class LearningBot():
       print("who me?? ", self.text)
     except:
       print("who me?? ERROR")
+      
   @staticmethod
   def text_to_speech(text):
     print("Dev --> ", text)
@@ -38,8 +39,10 @@ class LearningBot():
     os.system('afplay res.mp3')
     time.sleep(int(50*duration))
     os.remove("res.mp3")
+    
   def wake_up(self, text)
     return True if self.name in text.lower() else False
+    
   @staticmethod
   def action_time(): 
     return datetime.datetime.now().time().strftime('%H:%M')
